@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Porgramowanieobiektowe", "Porgramowanieobiektowe\Porgramowanieobiektowe.csproj", "{DACB5C4B-2332-4A70-9A2B-B417F167E94A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DACB5C4B-2332-4A70-9A2B-B417F167E94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACB5C4B-2332-4A70-9A2B-B417F167E94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACB5C4B-2332-4A70-9A2B-B417F167E94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACB5C4B-2332-4A70-9A2B-B417F167E94A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB99357F-FF4D-43BD-ABC5-0EC211BE33F9}
+	EndGlobalSection
+EndGlobal
