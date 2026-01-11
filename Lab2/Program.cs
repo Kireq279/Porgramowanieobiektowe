@@ -4,7 +4,7 @@ namespace LAb2
 {
 
 
-  
+
     class Program
     {
         static void Main(string[] args)
@@ -12,7 +12,7 @@ namespace LAb2
             Zwierze pies = new Pies("Burek");
             Zwierze kot = new Kot("Mruczek");
             Zwierze waz = new Wąż("Kaa");
-            
+
             Powiedzcos(kot);
             Powiedzcos(pies);
             Powiedzcos(waz);
@@ -36,7 +36,7 @@ namespace LAb2
 class Zwierze
 {
     protected string nazwa;
-    
+
     public Zwierze(string nazwa)
     {
         this.nazwa = nazwa;
@@ -47,29 +47,29 @@ class Zwierze
     }
 }
 class Pies : Zwierze
+{
+    public Pies(string nazwa) : base(nazwa) { }
+    public override void daj_głos()
     {
-        public Pies(string nazwa) : base(nazwa) { }
-        public override void daj_głos()
-        {
-            Console.WriteLine($"{nazwa} ; Hau Hau");
-        }
+        Console.WriteLine($"{nazwa} ; Hau Hau");
     }
+}
 class Kot : Zwierze
+{
+    public Kot(string nazwa) : base(nazwa) { }
+    public override void daj_głos()
     {
-        public Kot(string nazwa) : base(nazwa) { }
-        public override void daj_głos()
-        {
-            Console.WriteLine($"{nazwa} ; Miau Miau");
-        }
+        Console.WriteLine($"{nazwa} ; Miau Miau");
     }
+}
 class Wąż : Zwierze
+{
+    public Wąż(string nazwa) : base(nazwa) { }
+    public override void daj_głos()
     {
-        public Wąż(string nazwa) : base(nazwa) { }
-        public override void daj_głos()
-        {
-            Console.WriteLine($"{nazwa} ; Sssss Sssss");
-        }
+        Console.WriteLine($"{nazwa} ; Sssss Sssss");
     }
+}
 abstract class Pracownik
 {
     public abstract void Pracuj();
@@ -82,7 +82,8 @@ class Piekarz : Pracownik
     }
 }
 class A
-{   public A()
+{
+    public A()
     {
         Console.WriteLine("To jest konstruktor A");
     }
@@ -93,7 +94,7 @@ class B : A
     {
         Console.WriteLine("To jest konstruktor B");
     }
-}   
+}
 class C : B
 {
     public C() : base()
